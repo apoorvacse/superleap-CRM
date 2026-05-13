@@ -1,0 +1,116 @@
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0A0A0F;
+    --foreground: #F1F5F9;
+    --card: #111118;
+    --card-foreground: #F1F5F9;
+    --popover: #111118;
+    --popover-foreground: #F1F5F9;
+    --primary: #6366F1;
+    --primary-foreground: #FFFFFF;
+    --secondary: #1A1A24;
+    --secondary-foreground: #F1F5F9;
+    --muted: #1A1A24;
+    --muted-foreground: #64748B;
+    --accent: #1A1A24;
+    --accent-foreground: #F1F5F9;
+    --destructive: #EF4444;
+    --border: #2A2A38;
+    --input: #2A2A38;
+    --ring: #6366F1;
+    --radius: 0.5rem;
+    --sidebar: #0E0E14;
+    --sidebar-foreground: #F1F5F9;
+    --sidebar-primary: #6366F1;
+    --sidebar-primary-foreground: #FFFFFF;
+    --sidebar-accent: #1A1A24;
+    --sidebar-accent-foreground: #F1F5F9;
+    --sidebar-border: #2A2A38;
+    --sidebar-ring: #6366F1;
+    --font-heading: var(--font-syne);
+    --font-sans: var(--font-dm-sans);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#0A0A0F] text-text-primary antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar for dark theme */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2A2A38;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3A3A4A;
+  }
+}
+
+@layer components {
+  /* Glass-morphism card */
+  .glass-card {
+    @apply bg-surface/80 backdrop-blur-md border border-border/50 rounded-lg;
+  }
+
+  /* Glass-morphism surface */
+  .glass-surface {
+    @apply bg-surface/60 backdrop-blur-sm border border-border/30 rounded-lg;
+  }
+
+  /* Skeleton loader animation */
+  .skeleton {
+    @apply bg-surface-raised rounded animate-skeleton-pulse;
+  }
+
+  /* Status badge base */
+  .status-badge {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium;
+  }
+
+  /* Interactive row */
+  .interactive-row {
+    @apply transition-all duration-150 ease-in-out;
+  }
+
+  .interactive-row:hover {
+    @apply bg-surface-hover;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Focus ring for accessibility */
+  .focus-ring {
+    @apply outline-none ring-2 ring-accent/50 ring-offset-2 ring-offset-[#0A0A0F];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

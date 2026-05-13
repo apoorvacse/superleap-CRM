@@ -1,0 +1,512 @@
+{
+  "leads": [
+    {
+      "id": "a1b2c3d4",
+      "name": "Priya Sharma",
+      "email": "priya@acmecorp.com",
+      "phone": "+91-98765-43210",
+      "status": "NEW",
+      "source": "website",
+      "notes": "Interested in enterprise plan",
+      "created_at": "2025-04-01T10:00:00Z",
+      "updated_at": "2025-04-01T10:00:00Z"
+    },
+    {
+      "id": "b2c3d4e5",
+      "name": "Rahul Gupta",
+      "email": "rahul.gupta@techstart.io",
+      "phone": "+91-87654-32109",
+      "status": "CONTACTED",
+      "source": "referral",
+      "notes": "Follow up next week",
+      "created_at": "2025-04-02T11:30:00Z",
+      "updated_at": "2025-04-05T09:15:00Z"
+    },
+    {
+      "id": "c3d4e5f6",
+      "name": "Ananya Patel",
+      "email": "ananya@designhub.co",
+      "status": "QUALIFIED",
+      "source": "campaign",
+      "notes": "Needs custom integration",
+      "created_at": "2025-04-03T14:00:00Z",
+      "updated_at": "2025-04-08T16:30:00Z"
+    },
+    {
+      "id": "d4e5f6g7",
+      "name": "Vikram Singh",
+      "email": "vikram@globaltech.in",
+      "phone": "+91-76543-21098",
+      "status": "CONVERTED",
+      "source": "website",
+      "notes": "Signed annual contract",
+      "created_at": "2025-03-15T09:00:00Z",
+      "updated_at": "2025-04-10T11:00:00Z"
+    },
+    {
+      "id": "e5f6g7h8",
+      "name": "Meera Krishnan",
+      "email": "meera.k@startupverse.com",
+      "status": "LOST",
+      "source": "cold_outreach",
+      "notes": "Went with competitor",
+      "created_at": "2025-03-20T08:00:00Z",
+      "updated_at": "2025-04-07T14:20:00Z"
+    },
+    {
+      "id": "f6g7h8i9",
+      "name": "Arjun Reddy",
+      "email": "arjun@nexusdigital.co",
+      "phone": "+91-65432-10987",
+      "status": "NEW",
+      "source": "event",
+      "notes": "Met at TechConf 2025",
+      "created_at": "2025-04-05T16:00:00Z",
+      "updated_at": "2025-04-05T16:00:00Z"
+    },
+    {
+      "id": "g7h8i9j0",
+      "name": "Sneha Joshi",
+      "email": "sneha.j@cloudnine.in",
+      "status": "CONTACTED",
+      "source": "website",
+      "created_at": "2025-04-06T10:30:00Z",
+      "updated_at": "2025-04-09T13:45:00Z"
+    },
+    {
+      "id": "h8i9j0k1",
+      "name": "Karthik Nair",
+      "email": "karthik@dataflow.io",
+      "phone": "+91-54321-09876",
+      "status": "QUALIFIED",
+      "source": "referral",
+      "notes": "Evaluating vs 2 others",
+      "created_at": "2025-04-07T12:00:00Z",
+      "updated_at": "2025-04-11T10:30:00Z"
+    },
+    {
+      "id": "i9j0k1l2",
+      "name": "Deepika Menon",
+      "email": "deepika@freshworks.com",
+      "status": "NEW",
+      "source": "campaign",
+      "created_at": "2025-04-08T09:00:00Z",
+      "updated_at": "2025-04-08T09:00:00Z"
+    },
+    {
+      "id": "j0k1l2m3",
+      "name": "Rohit Verma",
+      "email": "rohit.v@scaleup.in",
+      "phone": "+91-43210-98765",
+      "status": "CONTACTED",
+      "source": "cold_outreach",
+      "notes": "Interested in starter plan",
+      "created_at": "2025-04-09T15:00:00Z",
+      "updated_at": "2025-04-12T08:00:00Z"
+    },
+    {
+      "id": "k1l2m3n4",
+      "name": "Ishita Bhat",
+      "email": "ishita@innovatech.co",
+      "status": "NEW",
+      "source": "website",
+      "created_at": "2025-04-10T11:00:00Z",
+      "updated_at": "2025-04-10T11:00:00Z"
+    },
+    {
+      "id": "l2m3n4o5",
+      "name": "Aditya Kumar",
+      "email": "aditya.k@megacorp.in",
+      "phone": "+91-32109-87654",
+      "status": "QUALIFIED",
+      "source": "event",
+      "notes": "Large team, needs demo",
+      "created_at": "2025-04-11T13:30:00Z",
+      "updated_at": "2025-04-14T09:00:00Z"
+    },
+    {
+      "id": "m3n4o5p6",
+      "name": "Neha Agarwal",
+      "email": "neha@brightspark.io",
+      "status": "CONVERTED",
+      "source": "referral",
+      "notes": "Monthly plan, 10 seats",
+      "created_at": "2025-03-25T10:00:00Z",
+      "updated_at": "2025-04-13T15:30:00Z"
+    },
+    {
+      "id": "n4o5p6q7",
+      "name": "Siddharth Rao",
+      "email": "sid.rao@zenith.com",
+      "status": "LOST",
+      "source": "website",
+      "notes": "Budget constraints",
+      "created_at": "2025-03-28T14:00:00Z",
+      "updated_at": "2025-04-06T11:00:00Z"
+    },
+    {
+      "id": "o5p6q7r8",
+      "name": "Pooja Deshmukh",
+      "email": "pooja@launchpad.in",
+      "phone": "+91-21098-76543",
+      "status": "NEW",
+      "source": "campaign",
+      "created_at": "2025-04-12T08:30:00Z",
+      "updated_at": "2025-04-12T08:30:00Z"
+    },
+    {
+      "id": "p6q7r8s9",
+      "name": "Amit Saxena",
+      "email": "amit.s@propelgrowth.co",
+      "status": "CONTACTED",
+      "source": "cold_outreach",
+      "notes": "Scheduling call for next week",
+      "created_at": "2025-04-13T10:00:00Z",
+      "updated_at": "2025-04-15T16:00:00Z"
+    },
+    {
+      "id": "q7r8s9t0",
+      "name": "Riya Malhotra",
+      "email": "riya@synthwave.io",
+      "phone": "+91-10987-65432",
+      "status": "QUALIFIED",
+      "source": "website",
+      "notes": "High potential, enterprise tier",
+      "created_at": "2025-04-14T12:00:00Z",
+      "updated_at": "2025-04-17T11:30:00Z"
+    },
+    {
+      "id": "r8s9t0u1",
+      "name": "Varun Kapoor",
+      "email": "varun.k@orbitalx.com",
+      "status": "NEW",
+      "source": "referral",
+      "created_at": "2025-04-15T09:30:00Z",
+      "updated_at": "2025-04-15T09:30:00Z"
+    },
+    {
+      "id": "s9t0u1v2",
+      "name": "Kavita Iyer",
+      "email": "kavita@streamline.in",
+      "status": "QUALIFIED",
+      "source": "event",
+      "notes": "Met at SaaS India",
+      "created_at": "2025-04-16T14:00:00Z",
+      "updated_at": "2026-05-12T21:54:06.159Z"
+    },
+    {
+      "id": "t0u1v2w3",
+      "name": "Manish Tiwari",
+      "email": "manish@codeforge.dev",
+      "phone": "+91-09876-54321",
+      "status": "CONVERTED",
+      "source": "campaign",
+      "notes": "Annual enterprise deal",
+      "created_at": "2025-03-10T11:00:00Z",
+      "updated_at": "2025-04-20T13:00:00Z"
+    },
+    {
+      "id": "u1v2w3x4",
+      "name": "Swati Banerjee",
+      "email": "swati.b@pixelcraft.co",
+      "status": "NEW",
+      "source": "website",
+      "notes": "Freelancer, interested in solo plan",
+      "created_at": "2025-04-17T08:00:00Z",
+      "updated_at": "2025-04-17T08:00:00Z"
+    },
+    {
+      "id": "v2w3x4y5",
+      "name": "Rajesh Pillai",
+      "email": "rajesh@cloudbridge.in",
+      "status": "LOST",
+      "source": "cold_outreach",
+      "notes": "No response after 3 follow-ups",
+      "created_at": "2025-03-22T15:00:00Z",
+      "updated_at": "2025-04-19T09:00:00Z"
+    },
+    {
+      "id": "w3x4y5z6",
+      "name": "Divya Chauhan",
+      "email": "divya@sparkline.io",
+      "phone": "+91-98765-12345",
+      "status": "QUALIFIED",
+      "source": "referral",
+      "notes": "Technical evaluation in progress",
+      "created_at": "2025-04-18T10:30:00Z",
+      "updated_at": "2025-04-21T14:30:00Z"
+    },
+    {
+      "id": "x4y5z6a7",
+      "name": "Nikhil Shetty",
+      "email": "nikhil@vertexai.com",
+      "status": "CONTACTED",
+      "source": "website",
+      "created_at": "2025-04-19T13:00:00Z",
+      "updated_at": "2025-04-22T11:00:00Z"
+    },
+    {
+      "id": "y5z6a7b8",
+      "name": "Tanvi Mehta",
+      "email": "tanvi.m@growthlabs.co",
+      "status": "NEW",
+      "source": "campaign",
+      "notes": "Downloaded whitepaper",
+      "created_at": "2025-04-20T09:00:00Z",
+      "updated_at": "2025-04-20T09:00:00Z"
+    },
+    {
+      "id": "z6a7b8c9",
+      "name": "Ashwin Murthy",
+      "email": "ashwin@bluestack.in",
+      "phone": "+91-87654-23456",
+      "status": "QUALIFIED",
+      "source": "event",
+      "notes": "Enterprise prospect, 50+ seats",
+      "created_at": "2025-04-21T11:30:00Z",
+      "updated_at": "2025-04-24T09:30:00Z"
+    },
+    {
+      "id": "a7b8c9d0",
+      "name": "Simran Kaur",
+      "email": "simran@vortexmedia.com",
+      "status": "CONTACTED",
+      "source": "referral",
+      "notes": "Referred by Vikram",
+      "created_at": "2025-04-22T14:00:00Z",
+      "updated_at": "2025-04-25T10:00:00Z"
+    },
+    {
+      "id": "b8c9d0e1",
+      "name": "Gaurav Pandey",
+      "email": "gaurav.p@technoserve.io",
+      "status": "NEW",
+      "source": "cold_outreach",
+      "created_at": "2025-04-23T08:30:00Z",
+      "updated_at": "2025-04-23T08:30:00Z"
+    },
+    {
+      "id": "c9d0e1f2",
+      "name": "Pallavi Mishra",
+      "email": "pallavi@datanest.co",
+      "phone": "+91-76543-34567",
+      "status": "CONVERTED",
+      "source": "website",
+      "notes": "Startup plan, 5 seats",
+      "created_at": "2025-03-18T12:00:00Z",
+      "updated_at": "2025-04-26T15:00:00Z"
+    },
+    {
+      "id": "d0e1f2g3",
+      "name": "Suresh Raman",
+      "email": "suresh@logicgate.in",
+      "status": "LOST",
+      "source": "campaign",
+      "notes": "Chose open-source alternative",
+      "created_at": "2025-03-30T10:00:00Z",
+      "updated_at": "2025-04-23T16:30:00Z"
+    },
+    {
+      "id": "e1f2g3h4",
+      "name": "Anjali Chatterjee",
+      "email": "anjali@peakventures.com",
+      "status": "NEW",
+      "source": "website",
+      "notes": "VC firm, looking for portfolio tool",
+      "created_at": "2025-04-24T09:00:00Z",
+      "updated_at": "2025-04-24T09:00:00Z"
+    },
+    {
+      "id": "f2g3h4i5",
+      "name": "Prasad Kulkarni",
+      "email": "prasad@infynit.co",
+      "phone": "+91-65432-45678",
+      "status": "CONTACTED",
+      "source": "event",
+      "created_at": "2025-04-25T11:00:00Z",
+      "updated_at": "2025-04-27T08:30:00Z"
+    },
+    {
+      "id": "g3h4i5j6",
+      "name": "Lakshmi Sundaram",
+      "email": "lakshmi@crestwave.in",
+      "status": "QUALIFIED",
+      "source": "website",
+      "notes": "Final decision pending",
+      "created_at": "2025-04-26T13:30:00Z",
+      "updated_at": "2025-04-28T10:00:00Z"
+    },
+    {
+      "id": "h4i5j6k7",
+      "name": "Vishal Jain",
+      "email": "vishal.j@quantumleap.io",
+      "status": "NEW",
+      "source": "referral",
+      "notes": "Referred by Neha Agarwal",
+      "created_at": "2025-04-27T10:00:00Z",
+      "updated_at": "2025-04-27T10:00:00Z"
+    },
+    {
+      "id": "i5j6k7l8",
+      "name": "Nandini Hegde",
+      "email": "nandini@elevateai.com",
+      "phone": "+91-54321-56789",
+      "status": "QUALIFIED",
+      "source": "campaign",
+      "notes": "AI startup, high interest",
+      "created_at": "2025-04-28T15:00:00Z",
+      "updated_at": "2026-05-12T21:43:06.549Z"
+    },
+    {
+      "id": "j6k7l8m9",
+      "name": "Sachin Malik",
+      "email": "sachin@buildspace.co",
+      "status": "LOST",
+      "source": "website",
+      "notes": "Timeline mismatch",
+      "created_at": "2025-04-01T09:00:00Z",
+      "updated_at": "2025-04-28T14:00:00Z"
+    },
+    {
+      "id": "k7l8m9n0",
+      "name": "Trisha Roy",
+      "email": "trisha.r@moonshot.in",
+      "status": "NEW",
+      "source": "cold_outreach",
+      "created_at": "2025-04-29T08:00:00Z",
+      "updated_at": "2025-04-29T08:00:00Z"
+    },
+    {
+      "id": "l8m9n0o1",
+      "name": "Harish Venkat",
+      "email": "harish@stackflow.dev",
+      "phone": "+91-43210-67890",
+      "status": "QUALIFIED",
+      "source": "referral",
+      "notes": "Dev tools company, 20 engineers",
+      "created_at": "2025-04-30T12:30:00Z",
+      "updated_at": "2025-05-02T09:00:00Z"
+    },
+    {
+      "id": "m9n0o1p2",
+      "name": "Zara Khan",
+      "email": "zara@luminouscreative.co",
+      "status": "CONTACTED",
+      "source": "website",
+      "notes": "Creative agency",
+      "created_at": "2025-05-01T10:00:00Z",
+      "updated_at": "2025-05-03T15:30:00Z"
+    },
+    {
+      "id": "n0o1p2q3",
+      "name": "Dev Anand",
+      "email": "dev@circuitboard.in",
+      "status": "CONVERTED",
+      "source": "cold_outreach",
+      "notes": "Hardware startup, annual plan",
+      "created_at": "2025-03-12T14:00:00Z",
+      "updated_at": "2025-05-01T11:00:00Z"
+    },
+    {
+      "id": "o1p2q3r4",
+      "name": "Megha Srinivasan",
+      "email": "megha@hyperloop.io",
+      "status": "NEW",
+      "source": "event",
+      "notes": "Bangalore Tech Summit lead",
+      "created_at": "2025-05-02T09:30:00Z",
+      "updated_at": "2025-05-02T09:30:00Z"
+    },
+    {
+      "id": "p2q3r4s5",
+      "name": "Akash Oberoi",
+      "email": "akash@primeedge.com",
+      "phone": "+91-32109-78901",
+      "status": "QUALIFIED",
+      "source": "referral",
+      "created_at": "2025-05-03T11:00:00Z",
+      "updated_at": "2026-05-12T20:11:56.667Z"
+    },
+    {
+      "id": "q3r4s5t6",
+      "name": "Bhavna Sethi",
+      "email": "bhavna@zenpath.co",
+      "status": "QUALIFIED",
+      "source": "campaign",
+      "notes": "Wellness platform, needs analytics",
+      "created_at": "2025-05-04T13:00:00Z",
+      "updated_at": "2025-05-06T10:30:00Z"
+    },
+    {
+      "id": "r4s5t6u7",
+      "name": "Chirag Thakur",
+      "email": "chirag@swiftcode.in",
+      "status": "NEW",
+      "source": "website",
+      "created_at": "2025-05-05T08:30:00Z",
+      "updated_at": "2025-05-05T08:30:00Z"
+    },
+    {
+      "id": "s5t6u7v8",
+      "name": "Fatima Shaikh",
+      "email": "fatima@auroratech.io",
+      "phone": "+91-21098-89012",
+      "status": "LOST",
+      "source": "event",
+      "notes": "Went with in-house solution",
+      "created_at": "2025-04-10T10:00:00Z",
+      "updated_at": "2025-05-04T13:00:00Z"
+    },
+    {
+      "id": "t6u7v8w9",
+      "name": "Gautam Das",
+      "email": "gautam@nexgen.co",
+      "status": "QUALIFIED",
+      "source": "cold_outreach",
+      "notes": "EdTech company, follow up",
+      "created_at": "2025-05-06T14:00:00Z",
+      "updated_at": "2026-05-12T20:11:50.905Z"
+    },
+    {
+      "id": "u7v8w9x0",
+      "name": "Isha Kohli",
+      "email": "isha@brightfuture.in",
+      "status": "NEW",
+      "source": "campaign",
+      "notes": "Clicked pricing page 3x",
+      "created_at": "2025-05-07T10:00:00Z",
+      "updated_at": "2025-05-07T10:00:00Z"
+    },
+    {
+      "id": "v8w9x0y1",
+      "name": "Jay Prakash",
+      "email": "jay.p@metaversal.com",
+      "phone": "+91-10987-90123",
+      "status": "QUALIFIED",
+      "source": "website",
+      "notes": "Metaverse startup, unique use case",
+      "created_at": "2025-05-08T12:30:00Z",
+      "updated_at": "2025-05-10T14:00:00Z"
+    },
+    {
+      "id": "w9x0y1z2",
+      "name": "Kiara Fernandez",
+      "email": "kiara@coastalventures.co",
+      "status": "CONVERTED",
+      "source": "referral",
+      "notes": "Pro plan, 15 seats",
+      "created_at": "2025-03-05T09:00:00Z",
+      "updated_at": "2025-05-09T11:30:00Z"
+    },
+    {
+      "id": "x0y1z2a3",
+      "name": "Liam O'Brien",
+      "email": "liam@globalreach.eu",
+      "status": "NEW",
+      "source": "website",
+      "notes": "EU market expansion inquiry",
+      "created_at": "2025-05-09T08:00:00Z",
+      "updated_at": "2025-05-09T08:00:00Z"
+    }
+  ]
+}
