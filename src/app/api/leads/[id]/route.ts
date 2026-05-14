@@ -27,7 +27,7 @@ export async function PATCH(req: Request, { params }: { params: { id: string } }
 
     mockDb.leads[index] = updatedLead;
     return NextResponse.json(updatedLead);
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: 'Invalid request body' }, { status: 400 });
   }
 }

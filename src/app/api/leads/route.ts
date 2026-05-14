@@ -20,7 +20,7 @@ export async function POST(req: Request) {
     mockDb.leads.unshift(newLead);
     
     return NextResponse.json(newLead, { status: 201 });
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: 'Invalid request body' }, { status: 400 });
   }
 }
