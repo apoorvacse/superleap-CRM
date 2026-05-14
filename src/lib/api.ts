@@ -1,6 +1,6 @@
 // lib/api.ts — Fetch wrapper for json-server mock API
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || '/api';
 
 class ApiError extends Error {
   constructor(public status: number, message: string) {
